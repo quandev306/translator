@@ -3,12 +3,12 @@
 Centralized documentation with localized guides.
 
 ## Language Selector
-- [🇻🇳 Tiếng Việt](README.vi.md)
-- [🇬🇧 English](README.en.md)
-- [🇯🇵 日本語](README.ja.md)
-- [🇰🇷 한국어](README.ko.md)
-- [🇨🇳 中文](README.zh.md)
-- [🇩🇪 Deutsch](README.de.md)
+- [🇻🇳 Tiếng Việt](docs/translations/README.vi.md)
+- [🇬🇧 English](docs/translations/README.en.md)
+- [🇯🇵 日本語](docs/translations/README.ja.md)
+- [🇰🇷 한국어](docs/translations/README.ko.md)
+- [🇨🇳 中文](docs/translations/README.zh.md)
+- [🇩🇪 Deutsch](docs/translations/README.de.md)
 
 ## Quick Overview
 - Multilingual translation service built with FastAPI and Hugging Face NLLB-200 models.
@@ -18,7 +18,7 @@ Centralized documentation with localized guides.
 - Supports loading these variables from a `.env` file (python-dotenv).
 
 ## Contributing Translations
-1. Copy an existing `README.<lang>.md` file as a template.
+1. Copy an existing `docs/translations/README.<lang>.md` file as a template.
 2. Update the content while keeping the section structure aligned.
 3. Add your new file to the language selector list above.
 
